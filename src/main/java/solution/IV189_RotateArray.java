@@ -2,14 +2,14 @@ package solution;
 
 import utility.Utility;
 
-public class RotateArray189 {
+public class IV189_RotateArray {
 
 	public static void main(String[] args) {
 
 		int nums[] = { -1, -100, 3, 99 };
 		int k = 2;
 
-		RotateArray189 obj = new RotateArray189();
+		IV189_RotateArray obj = new IV189_RotateArray();
 		obj.rotate(nums, k);
 
 		// prove solution

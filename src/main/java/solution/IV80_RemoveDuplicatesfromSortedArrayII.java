@@ -2,12 +2,12 @@ package solution;
 
 import utility.Utility;
 
-public class RemoveDuplicatesfromSortedArrayII80 {
+public class IV80_RemoveDuplicatesfromSortedArrayII {
 	public static void main(String[] args) {
 
 		int nums[] = { 1, 1, 1, 2, 2, 3 };
 
-		RemoveDuplicatesfromSortedArrayII80 obj = new RemoveDuplicatesfromSortedArrayII80();
+		IV80_RemoveDuplicatesfromSortedArrayII obj = new IV80_RemoveDuplicatesfromSortedArrayII();
 		obj.removeDuplicates(nums);
 
 		// prove solution

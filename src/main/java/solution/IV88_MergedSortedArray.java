@@ -2,7 +2,7 @@ package solution;
 
 import java.util.Arrays;
 
-public class MergedSortedArray88 {
+public class IV88_MergedSortedArray {
 
 	public static void main(String args[]) {
 		int nums1[] = { 1, 2, 3, 0, 0, 0 };
@@ -10,7 +10,7 @@ public class MergedSortedArray88 {
 		int m = 3;
 		int n = 3;
 
-		MergedSortedArray88 obj = new MergedSortedArray88();
+		IV88_MergedSortedArray obj = new IV88_MergedSortedArray();
 
 		obj.merge(nums1, m, nums2, n);
 	}
