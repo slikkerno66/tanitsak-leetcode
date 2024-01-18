@@ -1,5 +1,7 @@
 package solution;
 
+import utility.Utility;
+
 public class RotateArray189 {
 
 	public static void main(String[] args) {
@@ -11,7 +13,7 @@ public class RotateArray189 {
 		obj.rotate(nums, k);
 
 		// prove solution
-		obj.printArray(nums);
+		Utility.printArray(nums);
 
 	}
 
@@ -30,12 +32,6 @@ public class RotateArray189 {
 			}
 
 			System.arraycopy(tempNums, 0, nums, 0, tempNums.length);
-		}
-	}
-
-	public void printArray(int nums[]) {
-		for (int i = 0; i < nums.length; i++) {
-			System.out.print(nums[i] + " ");
 		}
 	}
 

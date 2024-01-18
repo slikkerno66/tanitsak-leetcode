@@ -1,5 +1,7 @@
 package solution;
 
+import utility.Utility;
+
 public class RemoveDuplicatesfromSortedArrayII80 {
 	public static void main(String[] args) {
 
@@ -9,8 +11,7 @@ public class RemoveDuplicatesfromSortedArrayII80 {
 		obj.removeDuplicates(nums);
 
 		// prove solution
-		obj.printArray(nums);
-
+		Utility.printArray(nums);
 	}
 
 	public int removeDuplicates(int[] nums) {
@@ -45,11 +46,5 @@ public class RemoveDuplicatesfromSortedArrayII80 {
 		System.out.println(resultArraySize);
 
 		return resultArraySize;
-	}
-
-	public void printArray(int nums[]) {
-		for (int i = 0; i < nums.length; i++) {
-			System.out.print(nums[i] + " ");
-		}
 	}
 }
