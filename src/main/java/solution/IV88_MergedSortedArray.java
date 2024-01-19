@@ -27,8 +27,9 @@ public class IV88_MergedSortedArray {
 		}
 		Arrays.sort(nums1);
 
+		// prove solution
 		for (int i = 0; i < nums1.length; i++) {
-			System.out.println(nums1[i]);
+			System.out.print(nums1[i]);
 		}
 	}
 }
