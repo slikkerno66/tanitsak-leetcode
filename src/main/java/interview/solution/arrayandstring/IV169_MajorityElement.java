@@ -1,4 +1,4 @@
-package solution.arrayandstring;
+package interview.solution.arrayandstring;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package solution.arrayandstring;
+package interview.solution.arrayandstring;
 
 public class IV27_RemoveElement {
 	public int removeElement(int[] nums, int val) {

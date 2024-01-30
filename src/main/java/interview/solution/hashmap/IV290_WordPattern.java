@@ -1,4 +1,4 @@
-package solution.hashmap;
+package interview.solution.hashmap;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package solution.arrayandstring;
+package interview.solution.arrayandstring;
 
 public class IV151_ReverseWordsInString {
 
