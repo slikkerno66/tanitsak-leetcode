@@ -1,4 +1,4 @@
-package solution;
+package solution.arrayandstring;
 
 public class IV121_BestTimeToBuyAndSellStock {
 

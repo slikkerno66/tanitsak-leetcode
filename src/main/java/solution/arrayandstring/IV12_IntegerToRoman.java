@@ -1,4 +1,4 @@
-package solution;
+package solution.arrayandstring;
 
 public class IV12_IntegerToRoman {
 
